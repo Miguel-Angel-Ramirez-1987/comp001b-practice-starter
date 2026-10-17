@@ -1,13 +1,42 @@
 /* Add and inspect the rules from each lesson. */
-body { font-family: system-ui, sans-serif; line-height: 1.5; }
-a:focus-visible { outline: 3px solid #9c3a00; outline-offset: 3px; }
-p { color: navy; }                 /* type: every paragraph */
-.intro { font-weight: 700; }           /* class: matching elements */
-.intro { color: darkgreen}
-p { color: purple}
-#page-title { font-size: 2rem; }       /* ID: the matching unique element */
-article p { line-height: 1.5; }        /* every descendant paragraph */
-article > p { margin-bottom: 1rem; }  /* direct child paragraphs */
-a:hover, a:focus-visible { text-decoration-thickness: 0.15em; }
-.intro::first-letter { font-size: 1.25em; }
-.intro::highlight { background-color: yellow; }
+body {
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+a:focus-visible {
+  outline: 3px solid #9c3a00;
+  outline-offset: 3px;
+}
+
+p {
+  color: #17324d;
+} /* type: every paragraph */
+.intro {
+  font-weight: 700;
+} /* class: matching elements */
+#page-title {
+  font-size: 2rem;
+} /* ID: the matching unique element */
+article p {
+  line-height: 1.5;
+} /* every descendant paragraph */
+article > p {
+  margin-bottom: 1rem;
+} /* direct child paragraphs */
+a:hover,
+a:focus-visible {
+  text-decoration-thickness: 0.15em;
+}
+.intro::first-letter {
+  font-size: 1.25em;
+}
+
+p {
+  color: navy;
+}
+.intro {
+  color: darkgreen;
+}
+p {
+  color: purple;
+}
